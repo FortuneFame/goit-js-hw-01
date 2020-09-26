@@ -7,10 +7,10 @@ const ACCESS_DENIED = 'Недостаточно средств на счету!'
 
 let totalPrice;
 totalPrice = pricePerDroid * orderPieces;
-// Write code on this line
+
 let balanceCredit;
 balanceCredit = credits - totalPrice;
-// Write code on this line
+
 let message;
 
 if (orderPieces === null) {
@@ -20,7 +20,6 @@ if (orderPieces === null) {
 } else if (orderPieces <= 7) {
   message = `Вы купили ${orderPieces} дроидов, на счету осталось ${balanceCredit} кредитов`;
 }
-// Write code under this line
 
 console.log(message);
 

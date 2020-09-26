@@ -1,7 +1,6 @@
 const invoice = 100;
 const stock = 100;
 
-// Write code under this line
 let message = '';
 
 if (invoice >= 50) {
